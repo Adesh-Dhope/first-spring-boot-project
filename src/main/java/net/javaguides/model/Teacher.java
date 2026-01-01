@@ -10,7 +10,7 @@ public class Teacher {
     @Id
     private String id;
     private String teacherName;
-    private String teacherSalary;
+    private String teacherEmail;
     private String teacherGender;
     private String teacherSubject;
     private String teacherClass;
@@ -35,12 +35,12 @@ public class Teacher {
         this.teacherName = teacherName;
     }
 
-    public String getTeacherSalary() {
-        return teacherSalary;
+    public String getTeacherEmail() {
+        return teacherEmail;
     }
 
-    public void setTeacherSalary(String teacherSalary) {
-        this.teacherSalary = teacherSalary;
+    public void setTeacherEmail(String teacherEmail) {
+        this.teacherEmail = teacherEmail;
     }
 
     public String getTeacherGender() {
